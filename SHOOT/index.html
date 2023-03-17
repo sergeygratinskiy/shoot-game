@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>drive</title>
+
+</head>
+<body>
+
+
+<div id="game" class="game">
+	<div id="windowsetting" class="windowsetting">
+		<div align="center">Моды</div>
+		<button  id="genshinmode" class="genshinmode" type="button">
+    	Genshin Mode
+		</button>
+		<div align="center">Звук</div>
+		<div style="margin-left: 45px;margin-top: 10px;">
+		<button  id="audioon" class="audioon" type="button" style="background-color: green;">
+    	Включить
+		</button>
+		<button  id="audiooff" class="audiooff" type="button" style="background-color: red;">
+    	Выключить
+		</button>
+		</div>
+		<button  id="closewindowsetting" class="closewindowsetting" type="button">
+    	Закрыть
+		</button>
+	</div>	
+	<div id="windowhelp" class="windowhelp">
+		<button  id="closewindowhelp" class="closewindowhelp"
+        type="button">
+    	Закрыть
+		</button>
+	</div>
+	<div id="menu" class="menu">
+		<label for="nick" id="nicktext" class="nicktext" style="color: yellow;">Ник (3-8):</label>		
+		<input type="text" id="nick" class="nick" required minlength="3" maxlength="8">		
+		<button  id="score" class="score"
+        type="button">
+    	Таблица рекордов
+		</button>
+		<button  id="startgame" class="startgame"
+        type="button">
+    	Начать игру
+		</button>
+		<button  id="settings" class="settings"
+        type="button">
+    	Настройки
+		</button>
+		<button  id="helpgame" class="helpgame"
+        type="button">
+    	Как играть?
+		</button>
+		<button  id="closegame" class="closegame"
+        type="button">
+    	Выйти из игры
+		</button>
+	</div>
+	<div id="windowscore" class="windowscore">
+	</div>	
+	
+
+<div id="points" class="points"> </div>
+<div id="healths" class="healths">
+<div id="health" class="health1"></div>
+<div id="health" class="health2"></div>
+<div id="health" class="health3"></div>
+</div>
+<div id="start-game" class="screen">
+<div class= "rocket" id="rocket"></div>
+</div>
+<div id="player-back" class="player-back"> </div>
+<div id="player" class="player"> </div>
+
+</div>
+
+
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

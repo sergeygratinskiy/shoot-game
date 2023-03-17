@@ -1,0 +1,254 @@
+body {
+}
+.nicktext {
+z-index: 20;
+position: absolute;
+margin-top: 470px;
+margin-left: 26px;
+width: 100px;
+}
+.nick {
+z-index: 20;
+position: absolute;
+margin-top: 470px;
+margin-left: 96px;
+width: 116px;
+}
+.score {
+z-index: 20;
+position: absolute;
+margin-top: 420px;
+margin-left: 100px;
+width: 116px;
+}
+.startgame {
+z-index: 20;
+position: absolute;
+margin-top: 500px;
+margin-left: 100px;
+width: 116px;
+}
+.settings {
+z-index: 20;
+position: absolute;
+margin-top: 530px;
+margin-left: 100px;
+width: 116px
+}
+.helpgame {
+z-index: 20;
+position: absolute;
+margin-top: 560px;
+margin-left: 100px;
+width: 116px
+}
+.closegame {
+z-index: 20;
+position: absolute;
+margin-top: 590px;
+margin-left: 100px;
+width: 116px
+}
+
+.closewindowhelp {
+z-index: 20;
+position: absolute;
+margin-top: 650px;
+margin-left: 800px;
+width: 116px
+}
+
+.closewindowsetting {
+z-index: 20;
+position: absolute;
+margin-left: 125px;
+margin-top: 25px;
+width: 116px
+}
+
+.genshinmode {
+z-index: 20;
+/*position: absolute;*/
+margin-left: 10px;
+margin-top: 10px;
+
+}
+
+.menu {
+  position: absolute;
+width: 1000px;
+height: 700px;
+z-index: 20;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;  
+background: url('img/startbody.gif');
+visibility: visible;
+}
+
+.windowhelp {
+  position: absolute;
+width: 1000px;
+height: 700px;
+z-index: 21;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;  
+background: url('img/helpbody.jpg');
+visibility: hidden;
+}
+
+.windowsetting {
+  position: absolute;
+width: 250px;
+height: 150px;
+z-index: 21;
+margin-right: auto;
+margin-bottom: auto;  
+background-color: blueviolet;
+visibility: hidden;
+margin-left: 250px;
+margin-top: 485px;
+}
+
+.game {
+width: 1000px;
+height: 700px;
+z-index: 1;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;	
+background: url('img/body.jpg');
+}
+
+
+.rocket {
+position: absolute;
+width: 20px;
+height: 20px;
+top: 470px;
+left: 95px;
+background: url('img/rocket.jpg');
+object-fit: scale-down;
+z-index: 3;
+}
+
+.screen {
+z-index: 2;
+float: left;
+width: 200px;
+height: 500px;
+position: absolute;
+margin-left: 30px;
+margin-top: 30px;
+background: url('img/screen.jpg');
+animation: animatedBackground 500s linear infinite;
+}
+
+.mouse {
+float: left;
+width: 200px;
+height: 500px;
+position: absolute;
+margin-left: -200px;
+margin-top: 30px;
+background-color: red;
+}
+
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 +10000px ;
+  }
+}
+
+.player {
+z-index: 5;
+width: 500px;
+height: 200px;
+position: absolute;
+margin-top: 30px;
+margin-left: 260px;
+margin-right: auto;
+margin-bottom: auto;
+background: url('img/player.png');
+}
+
+
+@keyframes animatedBackPlayer {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position:  +10000px 0 ;
+  }
+}
+.player-back {
+z-index: 3;
+width: 500px;
+height: 200px;
+position: absolute;
+margin-top: 30px;
+margin-left: 260px;
+margin-right: auto;
+margin-bottom: auto;
+background-color: red;
+background: url('img/screen.jpg');
+animation: animatedBackPlayer 500s linear infinite;
+}
+
+.points {
+float: left;
+height: 40px;
+position: absolute;
+margin-left: 30px;
+background-color: red;
+margin-top: 620px;
+width: 200px;
+}
+
+.healths {
+float: left;
+width: 90px;
+height: 40px;
+position: absolute;
+margin-left: 140px;
+margin-top: 560px;
+
+}
+
+.health1 {
+float: left;
+width: 30px;
+height: 40px;
+position: absolute;
+background: url('img/health.png');
+display: block;
+}
+.health2 {
+float: left;
+width: 30px;
+height: 40px;
+position: absolute;
+margin-left: 30px;
+background: url('img/health.png');
+display: block;
+}
+
+.health3 {
+float: left;
+width: 30px;
+height: 40px;
+position: absolute;
+margin-left: 60px;
+background: url('img/health.png');
+display: block;
+}
+
+
